@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
+
+button {
+  border: 1px solid blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background: blueviolet;
+  cursor: pointer;
+}
+
+.navbar {
+  height: 10%;
+  border: 1px solid blueviolet;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
