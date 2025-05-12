@@ -1,0 +1,13 @@
+.main{
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
+button{
+  border: 1px solid blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background: blueviolet;
+}
